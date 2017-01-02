@@ -35,9 +35,9 @@ class Point
         x=100;
         y=110;
     }
-    Point(int first, int second)
+    Point(int x, int y)
     {
-        x=first;
-        y=second;
+        this.x=x;
+        this.y=y;
     }
 }
