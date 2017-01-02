@@ -13,11 +13,9 @@ public class CourseJavaOOP {
      Methods - functions
        */
     
-    Point p= new Point();
+    Point p= new Point(33,88);
     
-    p.x=10;
-    p.y=60;
-    
+
         System.out.println(p.x);
         System.out.println(p.y);
     }
@@ -26,12 +24,17 @@ public class CourseJavaOOP {
 
 class Point 
 {
+    int x;
+    int y;
     Point()
     {
         System.out.println("This default constructor ");
         x=100;
-        y=100;
+        y=110;
     }
-    int x;
-    int y;
+    Point(int first, int second)
+    {
+        x=first;
+        y=second;
+    }
 }
