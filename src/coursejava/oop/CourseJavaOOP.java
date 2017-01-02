@@ -37,6 +37,7 @@ class Point
     }
     Point(int x, int y)
     {
+        //this = p or p2
         this.x=x;
         this.y=y;
     }
