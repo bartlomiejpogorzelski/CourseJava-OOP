@@ -28,7 +28,9 @@ class Point
 {
     Point()
     {
-    
+        System.out.println("This default constructor ");
+        x=100;
+        y=100;
     }
     int x;
     int y;
