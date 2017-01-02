@@ -20,6 +20,9 @@ public class CourseJavaOOP {
     Monitor monitor2= new Monitor();
     monitor2.width = 20000;
     monitor2.getWidth();
+    
+    String name = "Bartlomiej";
+    System.out.println(name.charAt(3));
     }
     
 }
