@@ -13,33 +13,23 @@ public class CourseJavaOOP {
      Methods - functions
        */
     
-    Monitor monitor1= new Monitor();
-    monitor1.width=1000;
-    monitor1.getWidth();      
-        
-    Monitor monitor2= new Monitor();
-    monitor2.width = 20000;
-    monitor2.getWidth();
+    Point p= new Point();
     
-    String name = "Bartlomiej";
-    System.out.println(name.charAt(3));
+    p.x=10;
+    p.y=60;
+    
+        System.out.println(p.x);
+        System.out.println(p.y);
     }
     
 }
 
-class Monitor 
+class Point 
 {
-    int width;
-    int hight;
-    int brightness;
-    
-    void changeBrightness()
+    Point()
     {
-        
-    }
     
-    void getWidth()
-    {
-        System.out.println(width); 
     }
+    int x;
+    int y;
 }
