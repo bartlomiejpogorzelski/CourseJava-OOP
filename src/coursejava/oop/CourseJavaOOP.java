@@ -1,4 +1,3 @@
-
 package coursejava.oop;
 
 
@@ -13,6 +12,31 @@ public class CourseJavaOOP {
      Properties - features (part of something)
      Methods - functions
        */
+    
+    Monitor monitor1= new Monitor();
+    monitor1.width=1000;
+    monitor1.getWidth();      
+        
+    Monitor monitor2= new Monitor();
+    monitor2.width = 20000;
+    monitor2.getWidth();
     }
     
+}
+
+class Monitor 
+{
+    int width;
+    int hight;
+    int brightness;
+    
+    void changeBrightness()
+    {
+        
+    }
+    
+    void getWidth()
+    {
+        System.out.println(width); 
+    }
 }
