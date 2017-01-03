@@ -11,6 +11,9 @@ public class CourseJavaOOP {
     
      Properties - features (part of something)
      Methods - functions
+        
+    Overloading mean that you have more than one methods or constructors with the same name 
+        but you want diffrent numbers of parameters
        */
     Test t = new Test();
     t.printSomethingOut("Bartek", "Pogorzelski");
