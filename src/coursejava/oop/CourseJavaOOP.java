@@ -17,6 +17,9 @@ public class CourseJavaOOP {
     t.printSomethingOut("Janina", "Pogorzelska");
     t.printSomethingOut("Bartek", "Pogorzelski");
     t.printSomethingOut("Janina", "Pogorzelska");
+    
+    int result = t.add(1,6);
+        System.out.println(result);
     }
     
 }
@@ -28,4 +31,9 @@ class Test
         System.out.println("Name:"+ name );
         System.out.println("Surname:"+ surname );
     }
+    int add(int a, int y)
+    {
+        return 5;
+    }
+            
 }
