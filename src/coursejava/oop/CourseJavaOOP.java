@@ -21,7 +21,7 @@ public class CourseJavaOOP {
     int result = t.add(1,6);
     System.out.println(result);
     
-    double result1= t.divide(10, 2);
+    double result1= t.divide(10, 0);
     System.out.println(result1);
     }
     
@@ -41,6 +41,9 @@ class Test
     
     double divide(int a, int y)
     {
+        if (y==0) {
+            return 0;
+        }
         return a / y;
     }
             
