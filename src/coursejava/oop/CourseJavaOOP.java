@@ -13,7 +13,7 @@ public class CourseJavaOOP {
      Methods - functions
        */
     Test t = new Test();
-    t.printSomethingOut();
+    t.printSomethingOut("Bartek", "Pogorzelski");
  
     }
     
@@ -21,8 +21,8 @@ public class CourseJavaOOP {
 
 class Test
 {
-    void printSomethingOut()
+    void printSomethingOut(String name, String surname)
     {
-        System.out.println("print something out");
+        System.out.println(name + " " + surname);
     }
 }
