@@ -41,10 +41,10 @@ class Test
     
     double divide(int a, int y)
     {
-        if (y==0) 
-            return 0;
+        if (y==0) {
+            return 0;}
         
-        System.out.println("It doesn't appear in the caase 0");
+        System.out.println("It doesn't show in the case 0");
         return a / y;
     }
             
