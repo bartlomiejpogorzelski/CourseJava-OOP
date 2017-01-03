@@ -19,7 +19,7 @@ public class CourseJavaOOP {
     t.printSomethingOut("Janina", "Pogorzelska");
     
     int result = t.add(1,6);
-        System.out.println(result);
+    System.out.println(result);
     }
     
 }
@@ -33,7 +33,7 @@ class Test
     }
     int add(int a, int y)
     {
-        return 5;
+        return a+y;
     }
             
 }
