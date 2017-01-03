@@ -12,33 +12,17 @@ public class CourseJavaOOP {
      Properties - features (part of something)
      Methods - functions
        */
-    
-    Point p= new Point(33,88);
-    Point p2= new Point(334,848);
-
-        System.out.println(p.x);
-        System.out.println(p.y);
-        
-        System.out.println(p2.x);
-        System.out.println(p2.y);
+    Test t = new Test();
+    t.printSomethingOut();
+ 
     }
     
 }
 
-class Point 
+class Test
 {
-    int x;
-    int y;
-    Point()
+    void printSomethingOut()
     {
-        System.out.println("This default constructor ");
-        x=100;
-        y=110;
-    }
-    Point(int x, int y)
-    {
-        //this = p or p2
-        this.x=x;
-        this.y=y;
+        System.out.println("print something out");
     }
 }
