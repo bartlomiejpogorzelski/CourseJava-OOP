@@ -8,13 +8,14 @@ public class CourseJavaOOP {
       
 //        double i = Math.add(13, 43);
 //        System.out.println(i);
-    Customer a = new Customer("adam");
-    Customer b = new Customer("Bartek");
-    Customer c = new Customer("Czeslaw");
+    Customer[] a = new Customer[3];
+    a[0]= new Customer("Bart");
+    a[1]= new Customer("Ada");
+    a[2]= new Customer("Paw");
     
-        System.out.println(a.id);
-        System.out.println(b.id);
-        System.out.println(c.id);
+        System.out.println(a[0].id);
+        System.out.println(a[1].id);
+        System.out.println(a[2].id);
     }
 }
 
@@ -34,7 +35,7 @@ class Customer
     Customer(String name)
     {
     this.name=name;
-    //id+=1; - that is bad
+    //id+=1; - only this is bad
     id =nextid;
     nextid++;
     }
