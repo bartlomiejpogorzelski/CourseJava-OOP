@@ -20,6 +20,9 @@ public class CourseJavaOOP {
     
     int result = t.add(1,6);
     System.out.println(result);
+    
+    double result1= t.divide(10, 2);
+    System.out.println(result1);
     }
     
 }
@@ -35,5 +38,11 @@ class Test
     {
         return a+y;
     }
+    
+    double divide(int a, int y)
+    {
+        return a / y;
+    }
+            
             
 }
