@@ -4,54 +4,17 @@ package coursejava.oop;
 public class CourseJavaOOP {
 
     public static void main(String[] args) {
-    /*
-     Objects - containers that stores variables and functions thematically
-                connected to each other for easier future usage
-     Classes - forms for creating instances (copies) of objects   
-    
-     Properties - features (part of something)
-     Methods - functions
         
-    Overloading mean that you have more than one methods or constructors with the same name 
-        but you want diffrent numbers of parameters
-       */
-    Test t = new Test();
-    t.printSomethingOut("Bartek", "Pogorzelski");
-    t.printSomethingOut("Janina", "Pogorzelska");
-    t.printSomethingOut("Bartek", "Pogorzelski");
-    t.printSomethingOut("Janina", "Pogorzelska");
-    
-    double result = t.add(43.44,80.78);
-      // or: int result= t.add(20, 30);
-    System.out.println(result);
-    
+        Math test = new Math();
+        double i = test.add(13, 43);
+        System.out.println(i);
     }
-    
 }
 
-class Test
+class Math
 {
-    void printSomethingOut(String name, String surname)
+    double add(double a, double b)
     {
-        System.out.println("Name:"+ name );
-        System.out.println("Surname:"+ surname );
+    return a+b;
     }
-    int add(int a, int y)
-    {
-        return a+y;
-    }
-    double add(double a, double y)
-    {
-        return a+y;
-    }
-    double divide(int a, int y)
-    {
-        if (y==0) 
-            return 0;
-        
-        System.out.println("It doesn't show in the case 0");
-        return a / y;
-    }
-            
-            
 }
