@@ -18,11 +18,10 @@ public class CourseJavaOOP {
     t.printSomethingOut("Bartek", "Pogorzelski");
     t.printSomethingOut("Janina", "Pogorzelska");
     
-    int result = t.add(1,6);
+    double result = t.add(43.44,80.78);
+      // or: int result= t.add(20, 30);
     System.out.println(result);
     
-    double result1= t.divide(10, 0);
-    System.out.println(result1);
     }
     
 }
@@ -38,11 +37,14 @@ class Test
     {
         return a+y;
     }
-    
+    double add(double a, double y)
+    {
+        return a+y;
+    }
     double divide(int a, int y)
     {
-        if (y==0) {
-            return 0;}
+        if (y==0) 
+            return 0;
         
         System.out.println("It doesn't show in the case 0");
         return a / y;
