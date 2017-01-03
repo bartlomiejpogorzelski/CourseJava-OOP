@@ -14,6 +14,7 @@ public class CourseJavaOOP {
        */
     Test t = new Test();
     t.printSomethingOut("Bartek", "Pogorzelski");
+    t.printSomethingOut("Janina", "Pogorzelska");
  
     }
     
