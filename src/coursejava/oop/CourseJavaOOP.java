@@ -12,6 +12,8 @@ public class CourseJavaOOP {
      BankAccount bank = new BankAccount();
     
         System.out.println(bank.getBalance());
+        bank.withdraw(10000);
+        System.out.println(bank.getBalance());
     }
 }
 class BankAccount
@@ -35,6 +37,9 @@ class BankAccount
     
     void withdraw(int amount)
     {
+        if (amount > balance)
+            System.out.println("You don't enough money");
+        else
         balance-= amount;
     }
 }
