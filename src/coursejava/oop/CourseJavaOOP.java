@@ -10,11 +10,16 @@ public class CourseJavaOOP {
                         from other classes
         */
      BankAccount bank = new BankAccount();
-     bank.balance=100;
-        System.out.println(bank.balance);
+    
+        System.out.println(bank.getBalance());
     }
 }
 class BankAccount
 {
-    int balance;
+    private int balance;
+    
+    int getBalance()
+    {
+        return balance;
+    }
 }
