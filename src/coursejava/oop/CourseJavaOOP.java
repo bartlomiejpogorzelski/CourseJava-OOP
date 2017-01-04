@@ -32,4 +32,9 @@ class BankAccount
     {
       balance=amount;
     }
+    
+    void withdraw(int amount)
+    {
+        balance-= amount;
+    }
 }
