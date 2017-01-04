@@ -18,6 +18,11 @@ class BankAccount
 {
     private int balance;
     
+    BankAccount()
+    {
+        balance=1000;
+    }
+    
     int getBalance()
     {
         return balance;
