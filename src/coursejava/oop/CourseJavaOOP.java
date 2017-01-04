@@ -9,5 +9,12 @@ public class CourseJavaOOP {
                         so there is no direct access to them
                         from other classes
         */
+     BankAccount bank = new BankAccount();
+     bank.balance=100;
+        System.out.println(bank.balance);
     }
+}
+class BankAccount
+{
+    int balance;
 }
