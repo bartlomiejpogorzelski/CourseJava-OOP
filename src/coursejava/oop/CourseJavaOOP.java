@@ -27,4 +27,9 @@ class BankAccount
     {
         return balance;
     }
+    
+    void setBalance(int amount)
+    {
+      balance=amount;
+    }
 }
