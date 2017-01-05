@@ -17,7 +17,14 @@ public class CourseJavaOOP {
         Test t =new Test(); // refernce variable beacuse we refer to the place in the memory
         Test t2 = t;
         t2.a=79;
-        System.out.println(t.a);
+        System.out.println(t.a);//79
+        
+        
+        String name ="Arkadiusz";
+        String name2 = name;
+        
+        name2= "wiola";
+        System.out.println(name); // give Arkadiusz
     }
 }
 
