@@ -12,5 +12,16 @@ public class CourseJavaOOP {
         
         System.out.println(x);
         // y is only a copy, so we have 50
+        
+        //here we assign adress (t) not value.
+        Test t =new Test(); // refernce variable beacuse we refer to the place in the memory
+        Test t2 = t;
+        t2.a=79;
+        System.out.println(t.a);
     }
+}
+
+class Test
+{
+    int a = 80;
 }
