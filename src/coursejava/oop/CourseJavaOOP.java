@@ -16,9 +16,9 @@ public class CourseJavaOOP {
 
 class Test
 {
-   void changeValue(int var) // int var = 10
+   int changeValue(int var) // int var = 10
    {
        var= var + 5; 
-       
+        return var; 
    } 
 }
