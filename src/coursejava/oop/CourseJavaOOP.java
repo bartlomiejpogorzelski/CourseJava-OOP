@@ -8,7 +8,7 @@ public class CourseJavaOOP {
        
         Test test = new Test();
         
-        test.changeValue(a);
+        a= test.changeValue(a);
         System.out.println(a);
                 
 }
