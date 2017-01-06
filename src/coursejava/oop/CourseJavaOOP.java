@@ -4,7 +4,21 @@ package coursejava.oop;
 public class CourseJavaOOP {
 
     public static void main(String[] args) {
-    
+        int a =10;
        
+        Test test = new Test();
+        
+        test.changeValue(a);
+        System.out.println(a);
+                
 }
+}
+
+class Test
+{
+   void changeValue(int var) // int var = 10
+   {
+       var= var + 5; 
+       
+   } 
 }
