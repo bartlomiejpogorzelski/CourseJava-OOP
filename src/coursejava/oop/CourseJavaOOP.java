@@ -8,17 +8,30 @@ public class CourseJavaOOP {
        
         Test test = new Test();
         
-        a= test.changeValue(a);
+        test.changeValue(a);
         System.out.println(a);
-                
+        
+        Foo foo=new Foo();
+        test.changeFoo(foo);
+        System.out.println(foo.x);
 }
 }
 
 class Test
 {
-   int changeValue(int var) // int var = 10
+    void changeValue(int var) // int var = 10
    {
        var= var + 5; 
-        return var; 
-   } 
+  
+   }
+    
+    void changeFoo(Foo var)
+    {
+        var.x = var.x +15;
+    }
+}
+
+class Foo
+{
+    int x= 10;
 }
