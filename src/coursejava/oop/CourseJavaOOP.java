@@ -7,9 +7,9 @@ public class CourseJavaOOP {
     String name= new String("Arkadiusz");//literal
     String name2= new String ("Arkadiusz");
     
-    if (name == name2)
+    if (name.equals(name2))
             System.out.println("Are equal");
     else
-            System.out.println("They are not eq"); //diffrent adress
+            System.out.println("They are not eq"); //
     }
 }
