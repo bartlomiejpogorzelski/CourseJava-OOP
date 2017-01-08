@@ -22,6 +22,10 @@ public class Bottle {
         bottle[0]= new Bottle(10);
         bottle[0]= new Bottle(5);
         bottle[0]= new Bottle(1);
+        
+        bottle[0].fill(20);
+        System.out.println(bottle[0].getWater());
+      
     }
     
     void fill(double amount)
@@ -32,5 +36,15 @@ public class Bottle {
     void pour(double amount)
     {
         this.amountWater -= amount;
+    }
+    
+    double getWater()
+    {
+     return amountWater;    
+    }
+    
+    void setWater(double amountWater)
+    {
+        this.amountWater=amountWater;
     }
 }
