@@ -4,10 +4,12 @@ package coursejava.oop;
 public class CourseJavaOOP {
 
     public static void main(String[] args) {
-    String name= "Arkadiusz";
-    String name2= "Arkadiusz";
+    String name= new String("Arkadiusz");//literal
+    String name2= new String ("Arkadiusz");
     
     if (name == name2)
             System.out.println("Are equal");
+    else
+            System.out.println("They are not eq");
     }
 }
