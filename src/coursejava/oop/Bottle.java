@@ -19,8 +19,18 @@ public class Bottle {
         
         Bottle[] bottle= new Bottle[3];
        
-        bottle[0]= new Bottle();
-        bottle[0]= new Bottle();
-        bottle[0]= new Bottle();
+        bottle[0]= new Bottle(10);
+        bottle[0]= new Bottle(5);
+        bottle[0]= new Bottle(1);
+    }
+    
+    void fill(double amount)
+    {
+        this.amountWater += amount;
+    }
+    
+    void pour(double amount)
+    {
+        this.amountWater -= amount;
     }
 }
