@@ -10,6 +10,6 @@ public class CourseJavaOOP {
     if (name == name2)
             System.out.println("Are equal");
     else
-            System.out.println("They are not eq");
+            System.out.println("They are not eq"); //diffrent adress
     }
 }
