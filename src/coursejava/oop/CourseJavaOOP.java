@@ -12,7 +12,7 @@ public class CourseJavaOOP {
         System.out.println(a);
         
         Foo foo=new Foo();
-        test.changeFoo(foo);
+        test.changeFoo(foo); //Adress
         System.out.println(foo.x);
 }
 }
@@ -25,7 +25,7 @@ class Test
   
    }
     
-    void changeFoo(Foo var)
+    void changeFoo(int var) // Foo var = Adress
     {
         var.x = var.x +15;
     }
@@ -33,5 +33,5 @@ class Test
 
 class Foo
 {
-    int x= 10;
+    int x= 11;
 }
