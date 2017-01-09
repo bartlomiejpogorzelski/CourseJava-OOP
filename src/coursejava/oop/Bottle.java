@@ -20,12 +20,12 @@ public class Bottle {
         Bottle[] bottle= new Bottle[3];
        
         bottle[0]= new Bottle(10);
-        bottle[0]= new Bottle(5);
-        bottle[0]= new Bottle(1);
+        bottle[1]= new Bottle(5);
+        bottle[2]= new Bottle(1);
         
-        bottle[0].fill(20);
+       bottle[0].transferWater(4.0, bottle[2]);
         System.out.println(bottle[0].getWater());
-      
+        System.out.println(bottle[2].getWater());
     }
     
     void fill(double amount)
@@ -46,5 +46,10 @@ public class Bottle {
     void setWater(double amountWater)
     {
         this.amountWater=amountWater;
+    }
+    
+    void transferWater(double amount, Bottle transferToBottle){
+        this.pour(amount);
+        transferToBottle.fill(amount);
     }
 }
