@@ -23,7 +23,7 @@ public class Bottle {
         bottle[1]= new Bottle(5);
         bottle[2]= new Bottle(1);
         
-       bottle[0].transferWater(4.0, bottle[2]);
+       bottle[0].transferWater(14.0, bottle[2]);
         System.out.println(bottle[0].getWater());
         System.out.println(bottle[2].getWater());
     }
@@ -35,7 +35,11 @@ public class Bottle {
     
     void pour(double amount)
     {
+       if ( this.amountWater < amount)
+            System.out.println("You dont have water too much");
+       else
         this.amountWater -= amount;
+               
     }
     
     double getWater()
