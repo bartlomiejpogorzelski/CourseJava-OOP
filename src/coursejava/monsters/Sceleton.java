@@ -1,6 +1,6 @@
 
 package coursejava.monsters;
 
-public class Sceleton {
+public class Sceleton extends Monster {
     
 }
