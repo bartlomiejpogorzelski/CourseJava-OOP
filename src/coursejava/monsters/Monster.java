@@ -8,13 +8,14 @@ public class Monster {
     
     public Monster()
     {
-        
+        System.out.println("I'm constructor from Monster class");
     }
     
     public Monster(double hitPoints, double speed)
     {
         this.hitPoints=hitPoints;
         this.speed=speed;
+        System.out.println("i'm constructor from Monster class with two arguments");
     }
     public void Attack()
     {

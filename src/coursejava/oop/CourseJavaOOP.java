@@ -2,6 +2,7 @@ package coursejava.oop;
 
 //Packages
 import coursejava.monsters.Monster;
+import coursejava.monsters.Sceleton;
 
 
 public class CourseJavaOOP {
@@ -14,5 +15,8 @@ public class CourseJavaOOP {
        
         System.out.println(monster.hitPoints);
         System.out.println(monster.speed);
+        
+        Sceleton sceleton= new Sceleton();
+        sceleton.Attack();
     }
 }
