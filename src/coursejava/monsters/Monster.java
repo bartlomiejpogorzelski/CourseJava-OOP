@@ -3,11 +3,11 @@ package coursejava.monsters;
 
 
 public class Monster {
-    double hitPoints;
-    double speed;
+    public double hitPoints;
+    public double speed;
     
-    void Attack()
+    public void Attack()
     {
-        
+        System.out.println("I'm attacking from monster class"); 
     }
 }
